@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Proxter</title>
+<meta name="description" content="Proxter — Casual Games aus Deutschland.">
 <style>
   :root {
     color-scheme: light dark;
@@ -26,18 +27,18 @@
   }
   main { max-width: 32rem; text-align: center; }
   h1 { font-size: 3rem; margin: 0 0 0.5rem; letter-spacing: -0.02em; }
-  p { color: var(--muted); margin: 0.5rem 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  footer { margin-top: 3rem; font-size: 0.85rem; }
+  .tagline { color: var(--muted); margin: 0.5rem 0 2rem; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: var(--muted); }
+  footer a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.15s; }
+  footer a:hover { border-bottom-color: var(--accent); }
 </style>
 </head>
 <body>
 <main>
   <h1>Proxter</h1>
-  <p>Casual Games aus Deutschland.</p>
+  <p class="tagline">Casual Games aus Deutschland. Mehr folgt.</p>
   <footer>
-    <a href="/privacy.html">Datenschutzerklärung</a> · <a href="/imprint.html">Impressum</a>
+    <a href="/privacy.html">Datenschutz</a>
   </footer>
 </main>
 </body>
